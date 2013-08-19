@@ -1,4 +1,5 @@
 import package_one.AnotherClassToCheckIn;
+import package_two.SeeWhatThisDoes;
 
 
 public class GIT_Test_Proj_Main {
@@ -11,8 +12,9 @@ public class GIT_Test_Proj_Main {
 		System.out.println("Hello World");
 		
 		AnotherClassToCheckIn a = new AnotherClassToCheckIn("Happy");
+		SeeWhatThisDoes s = new SeeWhatThisDoes();
 		
-		System.out.println(a.elementAt(0));
+		System.out.println(s.add(a.elementAt(0)));
 	}
 
 }
